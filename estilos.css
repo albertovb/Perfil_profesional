@@ -1,1 +1,61 @@
 @charset "utf-8";
+html{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(230, 230, 230);
+}
+section{
+    width: 90%;
+    overflow: hidden;
+    padding: 40px 0;
+    margin: auto;
+    max-width: 1000px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+}
+article{
+    border: 1px solid black;
+    padding: 7px;
+}
+h1{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size: 300%;
+    text-decoration: underline;
+}
+h2{
+    font-family: 'Passion One', cursive;
+    font-size: 175%;
+    text-decoration: underline;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 140%;
+}
+/* DATOS PERSONALES */
+img{
+    width: 175px;
+    height: 266px;
+    float: right;
+}
+p#txt1{
+    width: 35%;
+    font-size: 125%;
+}
+/* IDIOMAS */
+p.txt2{
+    font-size: 125%;
+}
+/* EXPERIENCIA PROFESIONAL */
+p.txt2{
+    font-size: 125%;
+}
+/* OTROS */
+div#otros{
+    display: flex;
+    flex-direction: row;
+}
+object{
+    margin-left: 10px;
+}
